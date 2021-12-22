@@ -1,0 +1,946 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+width: 20%;
+height: 90px;
+display: inline-block;
+justify-content: space-between;
+text-align: center;
+padding-left: 70px;
+
+padding-top: 30px;
+}
+.head2{
+    width: 40%;
+    height: 90px;
+    display: inline-block;
+    justify-content: space-between;
+   
+}
+.head2 ul li{
+    display: inline-block;
+    margin-left:30px;
+    padding-top: 45px;
+}
+.head2 ul li a{
+    color: #32404D;
+    font-family: "Chivo",sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.head2 ul li a:hover{
+    color: #007a5c!important;
+}
+.head3{
+ width: 20%;
+ height: 90px;
+ display: inline-block;
+ justify-content: space-between;
+
+ }
+ .head3 button{
+     margin-top: 40px;
+     background-color: white;
+     border: none;
+ }
+.head3 button a{
+    font-size: 18px!important;
+    font-weight: 400!important;
+    color: #007a5c!important;
+    font-family: "Chivo",sans-serif;
+    
+}
+.head3 a span{
+    color: #32404D;
+
+}
+.head4{
+    width: 20%;
+    height: 90px;
+    display: inline-block;
+ justify-content: space-between;
+ 
+}
+.headdiv{
+    width: 15%;
+    display: inline-block;
+    color: rgb(2, 2, 177);
+    font-size: 30px;
+    margin-left:10px;
+    padding-top: 30px;
+    transition: 0.4s;
+}
+.headdiv:hover{
+    transform: rotateY(180deg);
+}
+.headdiv1 {
+    width: 15%;
+    display: inline-block;
+    color: rgb(2, 2, 177);
+    font-size: 30px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+.headdiv1:hover{
+    transform: rotateY(180deg);
+}
+.headdiv2{
+    width: 15%;
+    display: inline-block;
+  color: rgb(77, 146, 224);
+  font-size: 30px;
+  margin-left: 10px;
+  transition: 0.4s;
+}
+.headdiv2:hover{
+    transform: rotateY(180deg);
+}
+.headdiv3{
+    width: 15%;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(185, 5, 5);
+    margin-left:10px;
+    transition: 0.4s;
+}
+.headdiv3:hover{
+    transform: rotateY(180deg);
+}
+.headdiv4 {
+    width: 15%;
+    display: inline-block;
+    color: green;
+    font-size: 30px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+.headdiv4:hover{
+    transform: rotateY(180deg);
+}
+.main{
+    width: 100%;
+    height: 700px;
+   background-image: url(edumain.webp);
+}
+.word{
+    width: 40%;
+    height: 350px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.word h2{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+}
+.word h1{
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: "Chivo",sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.2;
+    padding-top: 20px;
+}
+.word p{
+    color: #fff;
+ padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-bottom: 30px;
+}
+.word button {
+    width: 160px;
+    height: 60px;
+    background-color: #007a5c;
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: 0.4s;
+
+}
+.word button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.word button a{
+    color: #fff!important;
+    font-size: 18px;
+}
+.esas{
+    width: 100%;
+    height: 600px;
+    background-color: #fcf2eb;
+    display: flex;
+    justify-content: space-evenly;
+}
+.esas1{
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.esas2{
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.esas2 h2{
+    color: #32404d;
+    font-size: 40px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.esas2 p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.esas2 button{
+    width: 15%;
+    height: 50px;
+ border-left: none;
+ border-top: none;
+ border-right: none;
+    background-color: #fcf2eb;
+    border-bottom: #007a5c 2px solid;
+    padding-top: 20px;
+}
+.esas2 button a{
+  
+    color: #007a5c;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.esas2 button a:hover{
+    letter-spacing: 1px;
+}
+.gallery{
+    width: 100%;
+    height: 850px;
+ 
+}
+.gallery1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.gallery1 h2{
+    color: #32404d;
+    font-size: 40px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.gallery1  p{
+    width: 49%;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 19px;
+    font-weight: 540;
+    line-height: 1.5;
+    padding-top: 20px;
+    margin-left: 370px;
+    text-align: center !important;
+    font-family: "Chivo",sans-serif;
+}
+.gallery2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallerydiv1{
+    width: 40%;
+    height: 450px;
+    display: inline-block;
+    justify-content: space-evenly;
+    border: 1px  #007a5c solid;
+    overflow: hidden;
+  
+}
+.gallerydiv1 img{
+    width: 100%;
+    height: 250px;
+    padding: 10px 10px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.gallerydiv1 img:hover{
+    transform: scale(1.1);
+   
+}
+.gallerydiv1 h2{
+    color: #32404d;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.gallerydiv1 h2:hover{
+    color: #007a5c;
+}
+.gallerydiv1 p{
+    font-family: "Chivo",sans-serif;
+    font-size: 16px;
+    color: #5d646a;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 75%;
+    flex-wrap: wrap;
+}
+.gallerydiv1 button{
+    width: 18%;
+    height: 50px;
+ border-left: none;
+ border-top: none;
+ border-right: none;
+    border-bottom: #007a5c 2px solid;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: #007a5c 18px solid;
+    margin-left: 20px;
+    transition: 0.4s;
+
+}
+.gallerydiv1 button:hover{
+    letter-spacing: 1px;
+}
+.gallerydiv1 button a{
+  
+    color: #007a5c;
+    font-weight: 500;
+    font-size: 16px;
+}
+.gallerydiv2{
+    width: 40%;
+    height: 450px;
+    display: inline-block;
+    justify-content: space-evenly;
+    border: 1px  #007a5c solid;
+    overflow: hidden;
+
+}
+.gallerydiv2 img{
+    width: 100%;
+    height: 250px;
+    padding: 10px 10px;
+    transition: 0.4s;
+}
+.gallerydiv2 img:hover{
+    transform: scale(1.1);
+}
+.gallerydiv2 h2{
+    color: #32404d;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.gallerydiv2 h2:hover{
+    color: #007a5c;
+}
+.gallerydiv2 p{
+    font-family: "Chivo",sans-serif;
+    font-size: 16px;
+    color: #5d646a;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 75%;
+    flex-wrap: wrap;
+}
+.gallerydiv2 button{
+    width: 18%;
+    height: 50px;
+ border-left: none;
+ border-top: none;
+ border-right: none;
+ background-color: white;
+ margin-left: 20px;
+    border-bottom: #007a5c 2px solid;
+    padding-bottom: #007a5c 18px solid;
+    padding-top: 20px;
+    transition: 0.4s;
+}
+.gallerydiv2 button:hover{
+    letter-spacing: 1px;
+}
+.gallerydiv2 button a{
+  
+    color: #007a5c;
+    font-weight: 500;
+    font-size: 16px;
+}
+.inf{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.inf1{
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #F2FBF9;
+   
+}
+.infdiv1{
+    width: 80%;
+    height: 140px;
+    padding-top: 40px;
+    padding-left: 40px;
+   margin-bottom: 50px;
+   transition: 0.4s;
+
+}
+
+.infdiv1 h2{
+    color: #32404D;
+    font-size: 39px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+  
+}
+.infdiv1 p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    margin-top: 30px;
+}
+.infdiv2{
+    width: 80%;
+    height: 140px;
+    border: 1px solid #007a5c;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   
+}
+.infdiv3{
+    width: 80%;
+    height: 140px;
+    border: 1px solid #007a5c;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.infdiv4{
+    width: 80%;
+    height: 140px;
+    margin-left: 40px;
+    border: 1px solid #007a5c;
+}
+.inf2{
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.inf2 img{
+    width: 100%;
+    height: 700px;
+}
+.info1{
+    width: 70%;
+    height: 140px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.info1 h3{
+    color: #32404d;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.info1 p{
+    color: #32404d;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+.info2{
+    width: 70%;
+    height: 140px;
+    display: inline-block;
+}
+.info2 h3{
+    color: #32404d;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.info2 p{
+    color: #32404d;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+.info3{
+    width: 70%;
+    height: 140px;
+    display: inline-block;
+}
+.info3 h3{
+    color: #32404d;
+    font-family: "Chivo",sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.info3 p{
+    color: #32404d;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+.yazi{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.yazi1{
+    width: 50%;
+    height: 150px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.yazi1 h2{
+    color: #32404d;
+    font-size: 40px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.yazi2{
+    width: 50%;
+    height: 150px;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.yazi2 button{
+    width: 55%;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    background-color: white;
+    border-right: none;
+    border-bottom: #007a5c 2px solid;
+   
+}
+.yazi2 button a{
+    color: #007a5c;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Chivo",sans-serif;
+    display: inline-block;
+}
+.stories{
+    width: 100%;
+    height: 600px;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 30px;
+}
+.foto1{
+    width: 30%;
+    height: 500px;
+ 
+    display: inline-block;
+    justify-content: space-around;
+}
+.foto1 img{
+    width: 100%;
+    height: 300px;
+}
+.foto1 h3{
+  
+    font-family: "Chivo",sans-serif;
+    
+    text-align: center;
+    padding-top: 20px;
+}
+.foto1 h3 a{
+    color: #32404d;
+    font-size: 26px;
+    font-weight: 400;
+}
+.foto2{
+    width: 30%;
+    height: 500px;
+   
+    display: inline-block;
+    justify-content: space-around;
+}
+.foto2 img{
+    width: 100%;
+    height: 300px;
+}
+.foto2 h3{
+  
+    font-family: "Chivo",sans-serif;
+    
+    text-align: center;
+    padding-top: 20px;
+}
+.foto2 h3 a{
+    color: #32404d;
+    font-size: 26px;
+    font-weight: 400;
+}
+.foto3{
+    width: 30%;
+    height: 500px;
+  
+    display: inline-block;
+    justify-content: space-around;
+}
+.foto3 img{
+    width: 100%;
+    height: 300px;
+}
+.foto3 h3{
+  
+    font-family: "Chivo",sans-serif;
+    
+    text-align: center;
+    padding-top: 20px;
+}
+.foto3 h3 a{
+    color: #32404d;
+    font-size: 26px;
+    font-weight: 400;
+}
+.sponsor{
+width: 100%;
+height: 500px;
+border-top: 1px black solid;
+}
+.mlmt{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.mlmt h2{
+    color: #32404d;
+    font-size: 40px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+    padding-top: 100px;
+  text-align: center;
+}
+.mlmt p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+ margin-left: 400px;
+ margin-top: 40px;
+}
+.icons{
+    width: 50%;
+    height: 200px;
+    display: flex;
+   margin-left: 400px;
+   margin-top: 30px;
+}
+.icon1{
+    width: 172px;
+    height:100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.icon2{
+    width: 172px;
+    height:100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.icon3{
+    width: 172px;
+    height:100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.icon4{
+    width: 172px;
+    height:100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.icon5{
+    width: 172px;
+    height:100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.box{
+    width: 100%;
+    height: 700px;
+ display: flex;
+ justify-content: space-between;
+}
+.box1{
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #fff6ee;
+}
+.box1 img{
+    width: 100%;
+    height: 700px;
+}
+.box2{
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #007a5c;
+}
+.box2 h2{
+    width: 60%;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Chivo",sans-serif;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.box2 p{
+    color: #c9d6cb;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Chivo",sans-serif;
+    padding-left: 60px;
+    padding-top: 30px;
+    width: 75%;
+    flex-wrap: wrap;
+}
+.box2 button{
+    width: 15%;
+    height: 50px;
+    background-color: #007a5c;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding-bottom:  80px solid white ;
+    border-bottom: 2px solid white;
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+.box2 button a{
+    font-size: 22px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+}
+.foot1{
+    width: 100%;
+    height: 500px;  
+    display: flex;
+    justify-content: space-between;
+}
+.footdiv1{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.footdiv1 img{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.footdiv2{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.footdiv3{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+.footdiv2 h3{
+    font-size: 25px;
+    font-weight: 550;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    margin-top: 136px;
+    font-family: "Poppins",sans-serif;
+}
+.footdiv2 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: "Poppins",sans-serif;
+    color: #7a7a7a;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.footdiv2 p:hover{
+    color: #ff3500;
+}
+.footdiv3 h3{
+    font-size: 25px;
+    font-weight: 550;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    margin-top: 136px;
+    font-family: "Poppins",sans-serif;
+}
+.footdiv3 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: "Poppins",sans-serif;
+    color: #7a7a7a;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;    
+}
+.footdiv3 p:hover{
+    color: #ff3500;
+}
+.footdiv4{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 136px;
+}
+.footdiv4 h3{
+    font-size: 25px;
+    font-weight: 550;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    font-family: "Poppins",sans-serif;
+}
+.footdiv4 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: "Poppins",sans-serif;
+    color: #7a7a7a;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;    
+}
+.inp{
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+}
+.email{
+    width: 100%;
+    height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.send{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007a5c;
+    margin-right: 120px;
+}
+.send i{
+    font-size: 30px;
+    color: #fff;
+margin: 13px ;
+}
